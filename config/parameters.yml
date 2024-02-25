@@ -1,0 +1,8 @@
+dataset:
+    raw_data: ../data/raw/train.csv
+    processed_data: ../data/processed/data.csv
+model:
+    script_path: ../models/pipe.pkl
+train_test_split: 
+    test_size: 0.2
+    random_state: 42
